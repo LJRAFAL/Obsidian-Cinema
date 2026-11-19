@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obsidian Cinema</title>
+    <link rel="stylesheet" href="css/products.css">
+</head>
+<body>
+
+
+    <header class="header">
+        <nav>
+            <h1>Obsidian Cinema</h1>
+            <ul>
+                <li><a href="main.html">FEATURED</a></li>
+                <li><a href="characters.html">CHARACTERS</a></li>
+                <li><a href="products.html">PRODUCTS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+
+    <!--Header-->
+
+    <section class="section">
+        <card class="sectioncard">
+            <h1>Wear the Movie. Own the Magic!</h1>
+            <p>Browse Products and List them to Your Cart</p>
+        </card>
+    </section>
+
+
+
+
+    <!--Products-->
+
+    <section class="section1">
+
+        <card class="product">
+            <img src="media/arms.jpg" alt="p1">
+            <h3> Arm Costume </h3>
+            <p> ₱1,389</p>
+            
+        </card>
+
+        <card class="product">
+            <img src="media/btshirt.jpg" alt="p1">
+            <h3> Black T-shirt </h3>
+            <p> ₱1,698 </p>
+            
+        </card>
+
+        <card class="product">
+            <img src="media/wtshirt.jpg" alt="p1">
+            <h3> White T-shirt </h3>
+            <p> ₱2,399 </p>
+            
+        </card>
+
+        <card class="product">
+            <img src="media/hand.jpg" alt="p1">
+            <h3> Hand Costume </h3>
+            <p> ₱3,698</p>
+            
+        </card>
+
+    </section>
+
+
+
+    <section class="section1">
+
+        <card class="product">
+            <img src="media/headphone.jpg" alt="p1">
+            <h3> Headphone </h3>
+            <p> ₱7,999</p>
+            
+        </card>
+
+        <card class="product">
+            <img src="media/h1.jpg" alt="p1">
+            <h3> Hand Cover </h3>
+            <p> ₱4,599 </p>
+            
+        </card>
+
+        <card class="product">
+            <img src="media/jacket.jpg" alt="p1">
+            <h3> Jacket </h3>
+            <p> ₱3,799</p>
+            
+        </card>
+
+        <card class="product">
+            <img src="media/mug.jpg" alt="p1">
+            <h3> Mug </h3>
+            <p> ₱2,889</p>
+            
+        </card>
+
+    </section>
+
+
+
+    <section class="section1">
+
+        <card class="product">
+            <img src="media/lunchbag.jpg" alt="p1">
+            <h3> Lunch Bag </h3>
+            <p> ₱2,199</p>
+            
+        </card>
+
+        <card class="product">
+            <img src="media/maleta.jpg" alt="p1">
+            <h3> Travel Case </h3>
+            <p> ₱8,999</p>
+            
+        </card>
+
+        <card class="product">
+            <img src="media/pillow.jpg" alt="p1">
+            <h3> Cushion </h3>
+            <p> ₱6,798</p>
+            
+        </card>
+
+        <card class="product">
+            <img src="media/pants.jpg" alt="p1">
+            <h3> Legwear </h3>
+            <p> ₱3,499</p>
+            
+        </card>
+
+    </section>
+
+
+
+
+    <section class="section1">
+
+        <card class="product">
+            <img src="media/loptopcase.jpg" alt="p1">
+            <h3> Laptop Case </h3>
+            <p> ₱6,799</p>
+           
+        </card>
+
+        <card class="product">
+            <img src="media/cloak.jpg" alt="p1">
+            <h3> Cape Coat </h3>
+            <p> ₱7,978</p>
+           
+        </card>
+
+        <card class="product">
+            <img src="media/mask.jpg" alt="p1">
+            <h3> Masquerade Mask </h3>
+            <p> ₱2,399</p>
+           
+        </card>
+
+    </section>
+
+
+
+
+
+
+    <!--Cart Section-->
+
+    <section class="section4">
+        <h1>Already Chosen What to Add to Your Cart? <br> List Them Here</h1>
+    </section>   
+    
+    
+    
+    <!--Products List-->
+    <section class="section5">
+       
+        <label>Product Name</label><br>
+        <input type="text" id="item_name"><br>
+
+        <label>Quantity</label><br>
+        <input type="number" id="item_qty"><br>
+
+        <button onclick="addItem()">Add to Cart</button>
+        <button onclick="clearList()">Clear List</button>
+
+        <br>
+    
+
+    <!--Cart-->
+        <h3>Your Cart</h3>
+        <ul id="groceryList"></ul>
+    </section>
+
+    <script src="js/cart.js"></script>
+    
+    
+    
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+        <card>
+            <h4>CONTACT US</h4>
+            <p>Email: obsidiancinema@gmail.com</p>
+            <p>FB Page: Obsidian Cinema</p>
+            <p>Twitter: @ObsidianCinema</p>
+        </card>
+
+        <card>
+            <h4>DEVELOPED BY</h4>
+            <p>Charles Dave Hafalla</p>
+            <p>Yvette Langas</p>
+            <p>Lherissa Joy Rafal</p>
+            <p>Kimberly Lagrimas</p>
+        </card>
+
+        <card>
+            <h4>GO TO</h4>
+            <p><a href="main.html">FEATURED</a></p>
+            <p><a href="characters.html">CHARACTERS</a></p>
+            <p><a href="products.html">PRODUCTS</a></p>
+        </card>
+
+
+    </footer>
+
+
+</body>
+</html>
